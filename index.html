@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RuangAman.id — Edukasi Anti-Cyberbullying & Etika Digital</title>
+  <!-- Google Fonts: Plus Jakarta Sans & Quicksand -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Dekorasi Latar 3D Ambient Blobs -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- Navigasi -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#beranda" class="brand">
+        <div class="brand-badge">
+          <i data-lucide="shield-check"></i>
+        </div>
+        <span>Ruang<strong>Aman</strong></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#analisis">Analisis Masalah</a>
+        <a href="#etika">Etika Digital</a>
+        <a href="#simulasi">Simulasi Kasus</a>
+        <a href="#panduan">Langkah Aman</a>
+        <a href="#ai-cek">AI Cek Etika</a>
+        <a href="#lapor" class="btn-nav">Lapor Simulasi</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="beranda" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="pill-badge">
+            <i data-lucide="sparkles"></i> Proyek PSAS Informatika — Dampak Sosial Digital
+          </span>
+          <h1>Bukan Sekadar <span class="gradient-text">"Candaan"</span>, Kata-Kata di Layar Punya Dampak Nyata.</h1>
+          <p class="hero-desc">
+            Platform edukasi empatik, simulasi penanganan perundungan daring, dan panduan langkah aman bagi siswa SMA agar ruang digital menjadi tempat bertumbuh yang sehat dan bermartabat.
+          </p>
+          <div class="hero-actions">
+            <a href="#simulasi" class="btn btn-primary">
+              <i data-lucide="gamepad-2"></i> Mulai Simulasi Kasus
+            </a>
+            <a href="#panduan" class="btn btn-secondary">
+              <i data-lucide="book-open"></i> Petunjuk Penggunaan
+            </a>
+          </div>
+          <!-- Metadata Tujuan & Sasaran Pengguna (Ketentuan Produk #1) -->
+          <div class="meta-cards">
+            <div class="meta-item">
+              <strong>Sasaran Pengguna:</strong> Pelajar SMA, Pengurus OSIS/MPK, & Konselor Sebaya
+            </div>
+            <div class="meta-item">
+              <strong>Tujuan Utama:</strong> Mencegah normalisasi cyberbullying & melatih respons aman
+            </div>
+          </div>
+        </div>
+
+        <!-- Objek Visual 3D Interaktif -->
+        <div class="hero-visual">
+          <div class="card-3d-wrapper" data-tilt>
+            <div class="glass-card hero-3d-card">
+              <div class="card-3d-layer layer-top">
+                <span class="status-dot"></span> Ruang Digital Sehat
+              </div>
+              <div class="card-3d-layer layer-mid">
+                <div class="chat-bubble bad">
+                  <small>@anonim_kelas</small>
+                  <p>"Baper amat sih, gitu doang dikatain fisik langsung nangis wkwk"</p>
+                </div>
+                <div class="arrow-transform">
+                  <i data-lucide="arrow-down-circle"></i> Ubah Perspektif
+                </div>
+                <div class="chat-bubble good">
+                  <small>@teman_peduli</small>
+                  <p>"Candaan yang bikin orang lain terpojok bukan lucu. Yuk jaga batas etika di grup."</p>
+                </div>
+              </div>
+              <div class="card-3d-layer layer-bottom">
+                <span><i data-lucide="lock"></i> Privasi Terjaga</span>
+                <span><i data-lucide="heart-handshake"></i> Empati Aktif</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PETUNJUK PENGGUNAAN SINGKAT -->
+    <section class="guide-strip">
+      <div class="container">
+        <div class="glass-panel strip-grid">
+          <div class="strip-step">
+            <span class="step-num">01</span>
+            <div>
+              <h4>Pahami Dampak</h4>
+              <p>Pelajari bentuk & dampak psikologis perundungan daring.</p>
+            </div>
+          </div>
+          <div class="strip-step">
+            <span class="step-num">02</span>
+            <div>
+              <h4>Uji Skenario</h4>
+              <p>Latih pengambilan keputusan lewat simulasi interaktif.</p>
+            </div>
+          </div>
+          <div class="strip-step">
+            <span class="step-num">03</span>
+            <div>
+              <h4>Cek Kalimat (AI)</h4>
+              <p>Uji nada kalimatmu sebelum dikirim ke grup/komentar.</p>
+            </div>
+          </div>
+          <div class="strip-step">
+            <span class="step-num">04</span>
+            <div>
+              <h4>Lapor Aman</h4>
+              <p>Kirim laporan simulasi anonim tanpa data pribadi sensitif.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANALISIS DAMPAK SOSIAL INFORMATIKA -->
+    <section id="analisis" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-label">Analisis Masalah & Dampak Sosial</span>
+          <h2>Mengapa Cyberbullying di Lingkungan Siswa Harus Dihentikan?</h2>
+          <p>Interaksi digital pelajar sering mengaburkan batas antara humor dan perundungan. Berikut pemetaan penyebab, dampak, dan pihak terdampak.</p>
+        </div>
+
+        <div class="cards-grid-3">
+          <article class="glass-card feature-card" data-tilt>
+            <div class="icon-box purple"><i data-lucide="alert-triangle"></i></div>
+            <h3>Akar Penyebab</h3>
+            <ul>
+              <li><strong>Efek Disinhibisi Daring:</strong> Merasa aman bersembunyi di balik layar atau akun anonim.</li>
+              <li><strong>Normalisasi "Candaan":</strong> Ejekan fisik, nama orang tua, dan sebar foto aib dianggap keakraban biasa.</li>
+              <li><strong>Tekanan Kelompok:</strong> Ikut menertawakan di kolom komentar agar tidak dikucilkan.</li>
+            </ul>
+          </article>
+
+          <article class="glass-card feature-card" data-tilt>
+            <div class="icon-box rose"><i data-lucide="heart-crack"></i></div>
+            <h3>Dampak Psikologis & Sosial</h3>
+            <ul>
+              <li><strong>Kesehatan Mental:</strong> Kecemasan berlebih, hilangnya percaya diri, hingga menarik diri.</li>
+              <li><strong>Iklim Sekolah:</strong> Korban takut masuk sekolah dan konsentrasi belajar menurun drastis.</li>
+              <li><strong>Konflik Fisik:</strong> Perselisihan di grup obrolan sering merembet menjadi konflik nyata.</li>
+            </ul>
+          </article>
+
+          <article class="glass-card feature-card" data-tilt>
+            <div class="icon-box teal"><i data-lucide="users"></i></div>
+            <h3>Pihak yang Terdampak</h3>
+            <ul>
+              <li><strong>Korban Utama:</strong> Mengalami tekanan emosional langsung dan kerusakan reputasi digital.</li>
+              <li><strong>Saksi (Bystander):</strong> Sering bingung dan takut menjadi target berikutnya jika membela.</li>
+              <li><strong>Komunitas Kelas:</strong> Hilangnya rasa aman, empati, dan kepercayaan antar siswa.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ETIKA KOMUNIKASI DARING & JEJAK DIGITAL -->
+    <section id="etika" class="section bg-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-label">Literasi & Privasi Digital</span>
+          <h2>4 Pilar Etika Komunikasi Daring</h2>
+          <p>Terapkan prinsip dasar sebelum menekan tombol <em>kirim</em> atau <em>bagikan</em>.</p>
+        </div>
+
+        <div class="cards-grid-4">
+          <div class="glass-card pillar-card" data-tilt>
+            <span class="pillar-num">01</span>
+            <h4>Jejak Digital Permanen</h4>
+            <p>Tangkapan layar menyebar dalam hitungan detik. Komentar jahat hari ini dapat memengaruhi masa depan akademik dan karier.</p>
+          </div>
+          <div class="glass-card pillar-card" data-tilt>
+            <span class="pillar-num">02</span>
+            <h4>Persetujuan (Consent)</h4>
+            <p>Dilarang memotret, merekam, atau menyebarkan foto/stiker wajah teman tanpa izin eksplisit pemiliknya.</p>
+          </div>
+          <div class="glass-card pillar-card" data-tilt>
+            <span class="pillar-num">03</span>
+            <h4>Saring Sebelum Sharing</h4>
+            <p>Gunakan prinsip <strong>T.H.I.N.K</strong>: Apakah pesan ini <em>True</em> (Benar), <em>Helpful</em> (Bermanfaat), <em>Inspiring</em>, <em>Necessary</em> (Perlu), dan <em>Kind</em> (Baik)?</p>
+          </div>
+          <div class="glass-card pillar-card" data-tilt>
+            <span class="pillar-num">04</span>
+            <h4>Lindungi Data Pribadi</h4>
+            <p>Jangan pernah membagikan alamat rumah, nomor pribadi, atau masalah keluarga orang lain di ruang publik digital.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMULASI PENANGANAN SITUASI INTERAKTIF -->
+    <section id="simulasi" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-label">Latihan Pengambilan Keputusan</span>
+          <h2>Simulasi Situasi Perundungan Daring</h2>
+          <p>Pilih skenario di bawah ini dan tentukan tindakan paling aman serta empatik.</p>
+        </div>
+
+        <div class="glass-panel sim-container">
+          <div class="sim-tabs" id="simTabs">
+            <button class="sim-tab active" data-case="0">Kasus 1: Stiker Foto Aib</button>
+            <button class="sim-tab" data-case="1">Kasus 2: Pengucilan Grup</button>
+            <button class="sim-tab" data-case="2">Kasus 3: Komentar Body Shaming</button>
+          </div>
+
+          <div class="sim-body" id="simBody">
+            <!-- Diisi dinamis oleh script.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANDUAN LANGKAH AMAN KORBAN & SAKSI -->
+    <section id="panduan" class="section bg-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-label">Protokol Perlindungan Diri</span>
+          <h2>Langkah Aman untuk Korban & Saksi</h2>
+          <p>Jangan hadapi sendirian. Ikuti prosedur dokumentasi dan pendampingan berikut.</p>
+        </div>
+
+        <div class="guide-dual-grid">
+          <div class="glass-card role-card">
+            <div class="role-header victim">
+              <i data-lucide="user-check"></i>
+              <h3>Jika Kamu Mengalami (Korban)</h3>
+            </div>
+            <ol class="action-steps">
+              <li><strong>Jangan Terpancing Membalas:</strong> Membalas dengan emosi hanya memperpanjang konflik dan memutarbalikkan posisi.</li>
+              <li><strong>Simpan Bukti Secara Utuh:</strong> Ambil tangkapan layar (screenshot) yang memperlihatkan tanggal, jam, nama akun, dan URL/grup.</li>
+              <li><strong>Batasi Akses Pelaku:</strong> Gunakan fitur <em>Block</em>, <em>Mute</em>, atau <em>Restrict</em> untuk melindungi kesehatan mentalmu.</li>
+              <li><strong>Hubungi Pendamping Tepercaya:</strong> Ceritakan kepada orang tua, wali kelas, atau guru BK dengan menunjukkan bukti yang tersimpan.</li>
+            </ol>
+          </div>
+
+          <div class="glass-card role-card">
+            <div class="role-header witness">
+              <i data-lucide="eye"></i>
+              <h3>Jika Kamu Menyaksikan (Upstander)</h3>
+            </div>
+            <ol class="action-steps">
+              <li><strong>Hentikan Rantai Penyebaran:</strong> Jangan ikut tertawa, membagikan ulang, atau menyimpan stiker/foto perundungan.</li>
+              <li><strong>Dukung Korban Secara Privat:</strong> Kirim pesan pribadi kepada korban bahwa kamu peduli dan perilaku pelaku salah.</li>
+              <li><strong>Alihkan atau Tegur Tanpa Agresi:</strong> Di grup, arahkan topik pembicaraan atau ingatkan bahwa hal tersebut melanggar batas etika.</li>
+              <li><strong>Bantu Laporkan:</strong> Gunakan fitur <em>Report</em> pada platform media sosial dan bantu laporkan ke pihak sekolah.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FITUR AI BERLABEL SIMULASI (Ketentuan Produk #3) -->
+    <section id="ai-cek" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="ai-sim-badge">
+            <i data-lucide="bot"></i> PROTOTIPE FITUR AI — MODE SIMULASI TERVERIFIKASI
+          </span>
+          <h2>Asisten Cek Etika & Empati Kalimat</h2>
+          <p>Uji kalimat komentar sebelum dikirim. Fitur ini menggunakan logika klasifikasi berbasis aturan (rule-based simulation) yang telah diverifikasi untuk mendeteksi potensi perundungan.</p>
+        </div>
+
+        <div class="glass-panel ai-box">
+          <div class="ai-notice">
+            <i data-lucide="info"></i>
+            <span><strong>Transparansi AI:</strong> Fitur ini berjalan sebagai <strong>simulasi lokal</strong> (tanpa mengirim data ke server AI eksternal) demi menjaga privasi siswa dan keandalan hasil.</span>
+          </div>
+
+          <label for="aiInput" class="form-label">Masukkan draf komentar atau pesan chat yang ingin diuji:</label>
+          <textarea id="aiInput" rows="3" placeholder="Contoh: 'Dasar beban kelompok, muka pas-pasan aja sok gaya di kelas' atau 'Menurutku bagian presentasi ini bisa kita perbaiki bareng'..."></textarea>
+
+          <div class="ai-presets">
+            <span>Coba contoh cepat:</span>
+            <button type="button" class="preset-btn" data-text="Wkwk muka kayak gitu pantesan nggak ada yang mau satu kelompok sama lo">Contoh Merendahkan</button>
+            <button type="button" class="preset-btn" data-text="Ah cuma bercanda gitu aja baper banget sih, lemah">Contoh Gaslighting Candaan</button>
+            <button type="button" class="preset-btn" data-text="Aku kurang setuju sama bagian ini, gimana kalau kita diskusiin bareng?">Contoh Empatik</button>
+          </div>
+
+          <button type="button" id="analyzeBtn" class="btn btn-primary">
+            <i data-lucide="scan-search"></i> Analisis Dampak Kalimat
+          </button>
+
+          <div id="aiResult" class="ai-result hidden"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULIR PELAPORAN SIMULATIF (Google Apps Script + Sheets) -->
+    <section id="lapor" class="section bg-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-label">Integrasi Google Apps Script & Sheets</span>
+          <h2>Formulir Pelaporan Simulasi & Aspirasi</h2>
+          <p>Gunakan nama samaran (inisial) dan data contoh untuk menguji alur pelaporan aman tanpa mengumpulkan data pribadi sensitif.</p>
+        </div>
+
+        <div class="form-layout">
+          <form id="reportForm" class="glass-panel report-form">
+            <div class="privacy-alert">
+              <i data-lucide="shield-alert"></i>
+              <div>
+                <strong>Peringatan Privasi & Etika Data:</strong> Jangan masukkan nama asli, nomor HP, NIK, alamat rumah, atau kata sandi. Gunakan <strong>Inisial / Nama Samaran</strong> untuk simulasi proyek PSAS.
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="alias">Nama Samaran / Inisial Pelapor *</label>
+                <input type="text" id="alias" name="alias" placeholder="Contoh: Siswa_X11" required maxlength="30" />
+              </div>
+              <div class="form-group">
+                <label for="peran">Peran dalam Kejadian *</label>
+                <select id="peran" name="peran" required>
+                  <option value="">-- Pilih Peran --</option>
+                  <option value="Saksi (Bystander)">Saksi (Melihat kejadian)</option>
+                  <option value="Korban (Simulasi)">Korban (Mengalami langsung)</option>
+                  <option value="Aspirasi Pencegahan">Aspirasi / Ide Kampanye Sekolah</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="kategori">Kategori Perilaku *</label>
+                <select id="kategori" name="kategori" required>
+                  <option value="">-- Pilih Kategori --</option>
+                  <option value="Ejekan Fisik / Nama Orang Tua">Ejekan Fisik / Nama Orang Tua</option>
+                  <option value="Penyebaran Foto/Stiker Tanpa Izin">Penyebaran Foto/Stiker Tanpa Izin</option>
+                  <option value="Pengucilan Grup Daring">Pengucilan dari Grup Daring</option>
+                  <option value="Komentar Merendahkan / Hate Comment">Komentar Merendahkan di Media Sosial</option>
+                  <option value="Saran Ruang Aman Sekolah">Saran Ruang Aman Sekolah</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="platform">Platform Kejadian (Contoh) *</label>
+                <select id="platform" name="platform" required>
+                  <option value="Grup Chat Kelas">Grup Chat Kelas</option>
+                  <option value="Kolom Komentar Media Sosial">Kolom Komentar Media Sosial</option>
+                  <option value="Forum / Chat Game Online">Forum / Chat Game Online</option>
+                  <option value="Lainnya">Lainnya</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="kronologi">Deskripsi Singkat Kejadian / Aspirasi (Gunakan Data Contoh) *</label>
+              <textarea id="kronologi" name="kronologi" rows="4" placeholder="Ceritakan kronologi secara objektif tanpa menyebut nama asli..." required maxlength="500"></textarea>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" id="consentCheck" required />
+              <label for="consentCheck">Saya memastikan laporan simulasi ini menggunakan data contoh dan tidak mencantumkan data pribadi sensitif orang lain.</label>
+            </div>
+
+            <button type="submit" id="submitReportBtn" class="btn btn-primary full-width">
+              <i data-lucide="send"></i> Kirim Laporan Simulasi ke Google Sheets
+            </button>
+
+            <div id="formFeedback" class="form-feedback hidden"></div>
+          </form>
+
+          <!-- Panel Status & Bukti Log Lokal -->
+          <div class="glass-card log-panel">
+            <h3><i data-lucide="database"></i> Riwayat Uji Pengiriman (Sesi Ini)</h3>
+            <p class="log-desc">Setiap pengiriman terhubung ke endpoint Google Apps Script dan dicatat pada log sesi ini untuk memudahkan demonstrasi pengujian.</p>
+            <div id="sessionLogList" class="log-list">
+              <div class="empty-log">Belum ada pengiriman simulasi pada sesi ini.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <strong>RuangAman.id</strong> — Proyek PSAS Informatika TIK (Dampak Sosial Informatika)
+        <p>Dikembangkan dengan prinsip etika digital, perlindungan privasi, dan pemanfaatan AI secara bertanggung jawab.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#beranda">Kembali ke Atas ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
