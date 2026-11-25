@@ -6,7 +6,7 @@ lucide.createIcons();
 // Catatan Keamanan: URL Web App Apps Script aman ditempatkan di frontend
 // selama tidak memuat API Key pribadi atau password.
 // Ganti string di bawah dengan URL Web App hasil Deploy Apps Script milikmu.
-// ==========================================
+https://script.google.com/macros/s/AKfycbzHLbDtwSowpwzMvw_CkUx8HkrN90NAzJIWnO2S6SJC080EP4p1snOKI74eSDyaUWYW/exec
 const APPS_SCRIPT_URL = "MASUKKAN_URL_WEB_APP_GOOGLE_APPS_SCRIPT_DI_SINI";
 
 // ==========================================
